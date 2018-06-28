@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/sharp/pa24/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sharp/pa24/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/sharp/pa24/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
-    vendor/sharp/pa24/proprietary/lib/libwpa_qmi_eap_proxy.so:system/lib/libwpa_qmi_eap_proxy.so \
     vendor/sharp/pa24/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/sharp/pa24/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/sharp/pa24/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -185,6 +184,7 @@ PRODUCT_COPY_FILES += \
     vendor/sharp/pa24/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
+    libwpa_qmi_eap_proxy \
     libtime_genoff \
     shutdownlistener \
     TimeService \
